@@ -4066,9 +4066,9 @@ this._menuUpdateLogBtn = this.add.image(screenWidth - 30 - 50, 33, "GJ_WebSheet"
     };
     const isEveryEnd = (levelId) => levelId === "level_99";
     const levelCoinRequirements = {
-      "level_14": 10,
-      "level_18": 20,
-      "level_20": 30
+      "level_14": 0,
+      "level_18": 0,
+      "level_20": 0
     };
     const getLevelCoinRequirement = (levelId) => levelCoinRequirements[levelId] || 0;
     const fadeIn = this.add.graphics().setScrollFactor(0).setDepth(200);
